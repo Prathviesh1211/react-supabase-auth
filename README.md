@@ -74,7 +74,7 @@ Protected dashboard showing logged-in user details and logout option.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/react-supabase-auth.git
+git clone https://github.com/Prathviesh1211/react-supabase-auth.git
 cd react-supabase-auth
 ```
 
