@@ -1,16 +1,150 @@
-# React + Vite
+# React Supabase Auth 🔐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **practice authentication project** built to understand and implement modern authentication flows using **React** and **Supabase**.
+This project focuses on **auth fundamentals**, **protected routes**, **session handling**, and a **clean dark UI**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://react-supabase-auth-two.vercel.app/](https://react-supabase-auth-two.vercel.app/)
+📦 **Repository:** react-supabase-auth
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ⚠️ This is a **learning / practice project**, not a production SaaS.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* Email & Password Authentication using Supabase
+* User Signup & Login
+* Persistent Login Sessions (survives refresh)
+* Protected Routes using a Wrapper component
+* Auth-aware Navbar (Login / Signup / Dashboard / Logout)
+* Clean modern **dark theme UI**
+* Client-side routing with React Router
+* Deployed on Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Screenshots
+
+### 🏠 Homepage
+
+Landing page with project description and call-to-action buttons.
+
+### 🔑 Login Page
+
+Secure login form with loading states and validation.
+
+### 📝 Signup Page
+
+Simple signup flow for new users.
+
+### 📊 Dashboard
+
+Protected dashboard showing logged-in user details and logout option.
+
+---
+
+## 🧱 Tech Stack
+
+* **Frontend:** React (Vite)
+* **Styling:** Tailwind CSS
+* **Authentication:** Supabase Auth
+* **Routing:** React Router DOM
+* **Deployment:** Vercel
+
+---
+
+## 🧠 What I Learned
+
+* How Supabase authentication works
+* Handling auth session persistence and timing issues
+* Implementing protected routes correctly in React
+* Avoiding auth redirect loops
+* Structuring a React app with wrappers and layouts
+* Managing auth state with listeners
+* Building a consistent dark UI across pages
+
+---
+
+## ⚙️ Setup & Installation
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/react-supabase-auth.git
+cd react-supabase-auth
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Configure environment variables
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+### 4️⃣ Run locally
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔐 Supabase Configuration (Important)
+
+For **practice purposes**, the following settings were used:
+
+* Email Provider: ✅ Enabled
+* Confirm Email: ❌ Disabled
+
+This avoids email confirmation friction while learning authentication.
+
+> Note: Existing users created **before disabling email confirmation** may still require manual confirmation or recreation.
+
+---
+
+## 🚀 Deployment
+
+This project is deployed on **Vercel**.
+
+**Build Settings:**
+
+* Build Command: `npm run build`
+* Output Directory: `dist`
+
+**Routing Fix:**
+Client-side routing is handled using a `vercel.json` rewrite rule to prevent 404s on refresh.
+
+---
+
+## 📌 Project Status
+
+✅ Completed (Practice Project)
+
+This project was built purely for learning and experimentation with authentication concepts.
+
+---
+
+## 📄 License
+
+This project is open-source and available for learning and reference purposes.
+
+---
+
+## 🙌 Acknowledgements
+
+* Supabase Documentation
+* React & React Router Documentation
+* Tailwind CSS
+* Vercel
+
+---
+
+**Built as a hands-on practice project to strengthen authentication fundamentals in modern React apps.**
