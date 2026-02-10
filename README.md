@@ -26,18 +26,22 @@ This project focuses on **auth fundamentals**, **protected routes**, **session h
 ## 🖼️ Screenshots
 
 ### 🏠 Homepage
+<img width="1904" height="1073" alt="homepage" src="https://github.com/user-attachments/assets/d66d223c-cf9a-4a92-9cb9-cb694a50d37b" />
 
 Landing page with project description and call-to-action buttons.
 
 ### 🔑 Login Page
+<img width="1900" height="1074" alt="login" src="https://github.com/user-attachments/assets/61e2f9d1-0e2e-4150-81ca-fbd45cf08394" />
 
 Secure login form with loading states and validation.
 
 ### 📝 Signup Page
+<img width="1892" height="1075" alt="signup" src="https://github.com/user-attachments/assets/74e1c07a-a3fb-436f-8ee3-42b1f82af125" />
 
 Simple signup flow for new users.
 
 ### 📊 Dashboard
+<img width="1903" height="1075" alt="dashboard" src="https://github.com/user-attachments/assets/29172c77-889a-438f-bb55-a1dbb2329f5f" />
 
 Protected dashboard showing logged-in user details and logout option.
 
